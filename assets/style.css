@@ -1,0 +1,85 @@
+a:hover{
+    color: black;
+    background-color: gray;
+    font-size: 20px;
+}
+a:active{
+    background-color:pink;
+}
+.hd{
+    font-family:Tahoma, sans-serif;
+    color: rgb(15, 139, 173);
+}
+.aspc{
+    margin-right: 25px;
+    font-size: 15px;
+}
+.hd,.aspc{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(15, 139, 173);
+    font-weight: normal;
+}
+h1::after{
+    content: "TOP";
+    background-color: yellow;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+}
+.postimg{
+    height: 200px;
+    width: 620px;
+}
+.posted{
+    font-style: italic;
+}
+.s1{
+    color: rgb(15, 139, 173);
+}
+.bords{
+    border-top: 8px solid rgb(15, 139, 173);
+    border-bottom: 8px solid rgb(15, 139, 173);
+}
+.align{
+    font-family: sans-serif;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bx{
+    width: 600px;
+    height: 100px;
+    border: 0px solid;
+    background-color: rgb(248, 246, 248);
+    padding:10px;
+}
+.aligntxt{
+    text-align:justify;
+}
+.bottom{
+    border-top: 4px solid rgb(15, 139, 173);
+    border-bottom: 4px solid rgb(15, 139, 173); 
+    width: 400px;
+}
+aside{
+    background-color: rgb(248, 246, 248);
+    padding: 10px;
+}
+li{
+    font-size: 14.5px;
+}
+.asc{
+    text-align: center;
+}
+button{
+    margin-left: 1000px;
+}
+footer{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
