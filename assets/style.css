@@ -9,10 +9,17 @@ a:active{
 .hd{
     font-family:Tahoma, sans-serif;
     color: rgb(15, 139, 173);
+    margin-top: 10px;
 }
 .aspc{
+    position:absolute;
+    top: 20px;
+    left: 1290px;
+}
+.aspct{
     margin-right: 25px;
     font-size: 15px;
+    font-weight: 500;
 }
 .hd,.aspc{
     margin-left: 10px;
@@ -25,13 +32,18 @@ a{
 h1::after{
     content: "TOP";
     background-color: yellow;
-    font-size: 14px;
+    color: black;
+    font-size: 12px;
     font-weight: bold;
     display: inline-block;
     position: absolute;
+    margin-left: 25px;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 .postimg{
-    height: 200px;
+    height: 300px;
     width: 620px;
 }
 .posted{
@@ -47,23 +59,26 @@ h1::after{
 .align{
     font-family: sans-serif;
     width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 600px;
 }
 .bx{
-    width: 600px;
-    height: 100px;
+    width: 1010px;
+    height: 50px;
     border: 0px solid;
     background-color: rgb(248, 246, 248);
     padding:10px;
+    position:relative;
 }
 .aligntxt{
     text-align:justify;
 }
 .bottom{
+    position: absolute;
     border-top: 4px solid rgb(15, 139, 173);
     border-bottom: 4px solid rgb(15, 139, 173); 
-    width: 400px;
+    width: 340px;
+    top: 110px;
+    left: 1300px;
 }
 aside{
     background-color: rgb(248, 246, 248);
@@ -81,5 +96,34 @@ button{
 footer{
     margin-top: 25px;
     margin-bottom: 50px;
-    text-align: center;
+}
+li:first-child{
+    font-weight: bold;
+}
+li:last-child{
+    font-style: italic;
+}
+.asc{
+    margin-top: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.lirmv{
+    list-style-type: none;
+}
+.imgbot{
+    margin-bottom: 50px;
+}
+.imgref{
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px ;
+}
+.imgp{
+    font-style: italic;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 68px;
 }
